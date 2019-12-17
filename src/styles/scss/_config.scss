@@ -1,0 +1,35 @@
+/* ------- Colors for StyledComp -------*/
+:root {
+  --mainBlue: #3b3b40;
+  --lightBlueProd: #64c1fa;
+  --lightBlue: #c7eaff;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffc354;
+  --mainYellowProd: #ffca69;
+}
+/* ------- Colors -------*/
+$mainBlue: #3b3b40;
+$lightBlue: #c7eaff;
+$lightBlueProd: #9bd6fa;
+$mainWhite: #f3f3f3;
+$mainDark: #232528;
+$mainYellow: #ffa400;
+$mainYellowProd: #ffca69;
+
+/* ------- Fonts -------*/
+$merriweather: 'Merriweather', serif;
+$montserrat: 'Montserrat', sans-serif;
+$oswald: 'Oswald', sans-serif;
+
+body {
+  font-family: $oswald !important;
+  background: $mainWhite !important;
+  color: $mainDark !important;
+}
+
+@mixin media-sm {
+    @media screen and (max-width: 500px) {
+        @content;
+    }
+}

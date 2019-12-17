@@ -1,0 +1,69 @@
+@import 'config';
+@import 'media';
+
+.text-title {
+  font-family: $montserrat;
+  // letter-spacing: .1rem;
+  text-transform: uppercase;
+  &-by {
+    letter-spacing: .01rem;
+  }
+  &-totals {
+    font-family: $montserrat;
+    text-transform: capitalize;
+  }
+}
+
+.text-blue {
+  color: $mainBlue;
+}
+
+.text-bright {
+  color: $lightBlue;
+}
+
+.cart-col {
+  font-size: 1.2rem;
+  // font-weight: bold;
+}
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: .8rem !important;
+  color: $mainDark;
+  border-radius: 0 !important;
+  border: .1rem solid $mainDark !important;
+  transition: .2s !important;
+  padding: 2px 8px !important;
+  &:hover {
+    background: $mainDark !important;
+    color: $mainWhite !important;
+  }
+}
+
+.counter {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color: $mainDark;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: $mainYellowProd;
+  transition: .2s;
+  &:hover {
+    color: $mainYellow;
+  }
+}
+
+.btn-outline-danger {
+  transition: .3s ease-in-out !important;
+}
+
+
+
+
+
