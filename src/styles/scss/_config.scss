@@ -43,3 +43,8 @@ body {
         @content;
     }
 }
+@mixin media-xs {
+    @media screen and (max-width: 370px) {
+        @content;
+    }
+}
