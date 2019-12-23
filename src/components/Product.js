@@ -31,10 +31,12 @@ export default class Product extends Component {
           </ProductConsumer>
           <div className="card-footer d-flex justify-content-between">
             <p className="align-self-center mb-0">{title}</p>
-            <h5 className="text-blue font-italic mb-0">
-              <span className="mr-1">$</span>
-              {price}
-            </h5>
+            <div className="price">
+              <h5 className="text-blue font-italic mb-0">
+                <span className="mr-1">$</span>
+                {price}
+              </h5>
+            </div>
           </div>
         </div>
       </ProductWrapper >
@@ -56,11 +58,18 @@ const ProductWrapper = styled.div`
   .card {
     border-color: transparent;
     transition: all .3s linear;
+    min-height:335px;
+    justify-content: space-between;
   }
   .card-footer {
     background: transparent;
     border-top: transparent;
     transition: all .4s linear;
+    justify-content: flex-end;
+    .price {
+      display: flex;
+      justify-content: flex-end;
+    }
   }
   &:hover {
     .card {

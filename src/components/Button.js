@@ -7,6 +7,8 @@ export const ButtonNavContainer = styled.button`
   border: .05rem solid var(--lightBlue);
   border-color: var(--lightBlue);
   color: var(--lightBlue);
+  /* font-weight: 700; */
+  width: 180px;
   border-radius: .5rem;
   padding: .2rem .5rem;
   cursor: pointer;

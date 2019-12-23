@@ -1,7 +1,9 @@
 export const storeProducts = [
   {
     id: 1,
-    title: "Google Pixel 4 XL",
+    title: "Google Pixel 4",
+    model: "Google Pixel 4 XL",
+    color: "Black",
     img: "img/product-1.png",
     price: 1029,
     company: "GOOGLE",
@@ -13,7 +15,9 @@ export const storeProducts = [
   },
   {
     id: 2,
-    title: "Samsung Galaxy Note 10+",
+    title: "Samsung S10+",
+    model: "Samsung Galaxy S10+",
+    color: "Blue",
     img: "img/product-2.png",
     price: 1099,
     company: "SAMSUNG",
@@ -25,7 +29,9 @@ export const storeProducts = [
   },
   {
     id: 3,
-    title: "HTC 10 - Black",
+    title: "HTC 10",
+    model: "HTC 10",
+    color: "Black",
     img: "img/product-3.png",
     price: 189,
     company: "htc",
@@ -36,7 +42,9 @@ export const storeProducts = [
   },
   {
     id: 4,
-    title: "iPhone 11 Pro - 64GB Purple",
+    title: "iPhone 11 Pro",
+    model: "iPhone 11 Pro - 64GB",
+    color: "Purple",
     img: "img/product-4.png",
     price: 949,
     company: "Apple",
@@ -48,7 +56,9 @@ export const storeProducts = [
   },
   {
     id: 5,
-    title: "OnePlus 7 Pro - 256GB",
+    title: "OnePlus 7 Pro",
+    model: "OnePlus 7 Pro - 256GB",
+    color: "Black",
     img: "img/product-5.png",
     price: 939,
     company: "OnePlus",
@@ -60,7 +70,9 @@ export const storeProducts = [
   },
   {
     id: 6,
-    title: "Google Pixel 3a",
+    title: "Google Pixel",
+    model: "Google Pixel 3a",
+    color: "Black",
     img: "img/product-6.png",
     price: 269,
     company: "Google",
@@ -72,7 +84,9 @@ export const storeProducts = [
   },
   {
     id: 7,
-    title: "iPhone 7 - 32GB Silver",
+    title: "iPhone 7",
+    model: "iPhone 7 - 32GB",
+    color: "Silver",
     img: "img/product-7.png",
     price: 249,
     company: "apple",
@@ -84,7 +98,9 @@ export const storeProducts = [
   },
   {
     id: 8,
-    title: "Xiaomi Mi 8 Lite - Blue",
+    title: "Xiaomi Mi 8 Lite",
+    model: "Xiaomi Mi 8 Lite",
+    color: "Blue",
     img: "img/product-8.png",
     price: 199,
     company: "Xiaomi",
@@ -98,12 +114,14 @@ export const storeProducts = [
 
 export const detailProduct = {
   id: 1,
-  title: "Google Pixel - Black",
+  title: "Google Pixel 4",
+  model: "Google Pixel 4 XL",
+  color: "Black",
   img: "img/product-1.png",
-  price: 10,
-  company: "google",
+  price: 1029,
+  company: "GOOGLE",
   info:
-    "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+    "Weight: 193g (6.81 oz), 	Dimensions: 160.4 x 75.1 x 8.2 mm (6.31 x 2.96 x 0.32 in), Resolution: 1440 x 3040 pixels, 19:9 ratio (~537 ppi density), Size: 6.3 inches, 98.0 cm2 (~81.3% screen-to-body ratio), Memory: Internal	64GB 6GB RAM, Main Camera: 12.2 MP, f/1.7, 27mm (wide), 1/2.55' 1.4µm, dual pixel PDAF, OIS 16 MP, f/2.4, 50mm(telephoto), 1/3.6' 1.0µm, PDAF, OIS, 2x optical zoom, Video:	2160p@30fps, 1080p@30/60/120fps, 1080p@30fps (gyro-EIS), Battery: Non-removable Li-Po 3700 mAh battery (Fast battery charging 18W).",
   inCart: false,
   count: 0,
   total: 0

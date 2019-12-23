@@ -1,6 +1,7 @@
 /* ------- Colors for StyledComp -------*/
 :root {
   --mainBlue: #3b3b40;
+  // --mainBlue: #bfbfbf;
   --lightBlueProd: #64c1fa;
   --lightBlue: #c7eaff;
   --mainWhite: #f3f3f3;
@@ -10,6 +11,7 @@
 }
 /* ------- Colors -------*/
 $mainBlue: #3b3b40;
+$mainBlueTitle: #bfbfbf;
 $lightBlue: #c7eaff;
 $lightBlueProd: #9bd6fa;
 $mainWhite: #f3f3f3;
@@ -18,9 +20,17 @@ $mainYellow: #ffa400;
 $mainYellowProd: #ffca69;
 
 /* ------- Fonts -------*/
-$merriweather: 'Merriweather', serif;
-$montserrat: 'Montserrat', sans-serif;
-$oswald: 'Oswald', sans-serif;
+// $merriweather: 'Merriweather', serif;
+// $montserrat: 'Montserrat', sans-serif;
+// $oswald: 'Oswald', sans-serif;
+
+
+$merriweather: 'Roboto', sans-serif;
+$montserrat: 'Roboto', sans-serif;
+$oswald: 'Roboto', sans-serif;
+
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Open Sans', sans-serif;
 
 body {
   font-family: $oswald !important;

@@ -12,7 +12,7 @@
 /* ------- Colors -------*/
 /* ------- Fonts -------*/
 body {
-  font-family: "Oswald", sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   background: #f3f3f3 !important;
   color: #232528 !important;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 .text-title {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
 }
 
@@ -33,12 +33,12 @@ body {
 }
 
 .text-title-totals {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: capitalize;
 }
 
 .text-blue {
-  color: #3b3b40;
+  color: #bfbfbf;
 }
 
 .text-bright {
